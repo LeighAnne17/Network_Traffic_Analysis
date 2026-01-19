@@ -80,7 +80,7 @@ This dataset allows analysis of **network activity, traffic patterns, and potent
 
 ---
 
-👩‍💻 About the Author
+## 👩‍💻 About the Author
 
 Nonkanyiso(Leigh-Anne) Ndimande Data Analyst | Aspiring Data Scientist | AI & Cybersecurity Enthusiast
 
