@@ -79,3 +79,19 @@ This dataset allows analysis of **network activity, traffic patterns, and potent
 4. Download the cleaned dataset (`network_traffic_cleaned.csv`) if desired.  
 
 ---
+
+👩‍💻 About the Author
+
+Nonkanyiso(Leigh-Anne) Ndimande Data Analyst | Aspiring Data Scientist | AI & Cybersecurity Enthusiast
+
+This project is part of my growing portfolio focused on:
+
+• Data Analytics
+
+• Data Science
+
+• Machine Learning
+
+•Artificial Intelligence
+
+•Cybersecurity & Threat Analysis
