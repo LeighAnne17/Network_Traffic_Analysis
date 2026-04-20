@@ -9,17 +9,17 @@
 
 ##  Project Overview
 
-In today’s digital world, networks generate massive amounts of data every second. Understanding this data is crucial for **maintaining security**, detecting unusual behavior, and preventing cyber threats.  
+In today’s digital world, networks generate massive amounts of data every second. Understanding this data is crucial for maintaining security, detecting unusual behavior, and preventing cyber threats.  
 
-This project dives into **network traffic logs** to identify patterns, trends, and anomalies. It combines **data analysis, visualization, and basic anomaly detection** to provide insights that could be used by network security teams or analysts.  
+This project dives into **network traffic logs** to identify patterns, trends, and anomalies. It combines data analysis, visualization, and basic anomaly detection to provide insights that could be used by network security teams or analysts.  
 
-The goal is not just to crunch numbers but to **tell a story with data**, demonstrating both **technical skills** and **cybersecurity awareness**.
+The goal is not just to crunch numbers but to tell a story with data, demonstrating both technical skills and cybersecurity awareness.
 
 ---
 
 ## Dataset
 
-The dataset is a **simulated network traffic log** designed to resemble real-world scenarios. Each record represents a packet sent over a network and includes:
+The dataset is a simulated network traffic log designed to resemble real-world scenarios. Each record represents a packet sent over a network and includes:
 
 - `timestamp`: When the packet was sent  
 - `source_ip`: IP address sending the packet  
@@ -65,9 +65,9 @@ This dataset allows analysis of **network activity, traffic patterns, and potent
 
 ## Why This Project Matters
 
-- Demonstrates **real-world cybersecurity thinking**: analyzing network logs, identifying anomalies, and interpreting patterns.  
-- Shows **data literacy**: cleaning, visualizing, and extracting insights from large datasets.  
-- Bridges **cybersecurity & data analysis**, a rare and highly valuable combination for internships, bursaries, and portfolio presentation.
+- Demonstrates real-world cybersecurity thinking: analyzing network logs, identifying anomalies, and interpreting patterns.  
+- Shows data literacy: cleaning, visualizing, and extracting insights from large datasets.  
+- Bridges cybersecurity & data analysis, a rare and highly valuable combination for internships, bursaries, and portfolio presentation.
 
 ---
 
