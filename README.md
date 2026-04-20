@@ -28,7 +28,7 @@ The dataset is a simulated network traffic log designed to resemble real-world s
 - `destination_port`: Port number the packet is sent to  
 - `packet_size_bytes`: Size of the packet in bytes  
 
-This dataset allows analysis of **network activity, traffic patterns, and potential anomalies**, all while keeping it safe and ethical.
+This dataset allows analysis of network activity, traffic patterns, and potential anomalies all while keeping it safe and ethical.
 
 ---
 
