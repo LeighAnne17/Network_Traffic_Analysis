@@ -55,14 +55,7 @@ This dataset allows analysis of network activity, traffic patterns, and potentia
 ---
 
 ## Key Insights
-**Protocol Distribution:**
-- TCP: 65% of packets (typical for HTTP/HTTPS web traffic)
-- UDP: 28% of packets (DNS queries and video streaming)
-- ICMP: 7% of packets (network diagnostics)
-
-**Anomaly Flagged:** 143 packets identified as size outliers (>5 std devs from mean).
-Largest: 8,432 bytes (likely file transfer). Smallest: 8 bytes (unusual for most protocols).
-
+**TCP** - TCP dominates traffic, followed by UDP and ICMP, reflecting typical network behavior.
 **Certain IP addresses generate or receive significantly more traffic** — these could be servers, heavy users, or potential points of interest for security monitoring.  
 **Port usage analysis** shows common HTTP/HTTPS traffic, but minor spikes on unusual ports could indicate scans or probing attempts.  
 
