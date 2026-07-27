@@ -11,7 +11,7 @@
 
 In today’s digital world, networks generate massive amounts of data every second. Understanding this data is crucial for maintaining security, detecting unusual behavior, and preventing cyber threats.  
 
-This project dives into **network traffic logs** to identify patterns, trends, and anomalies. It combines data analysis, visualization, and basic anomaly detection to provide insights that could be used by network security teams or analysts.  
+This project dives into network traffic logs to identify patterns, trends, and anomalies. It combines data analysis, visualization, and basic anomaly detection to provide insights that could be used by network security teams or analysts.  
 
 The goal is not just to crunch numbers but to tell a story with data, demonstrating both technical skills and cybersecurity awareness.
 
@@ -32,7 +32,7 @@ This dataset allows analysis of network activity, traffic patterns, and potentia
 
 ---
 
-## 🔍 What I Did
+## What I Did
 
 1. **Data Cleaning & Exploration:**  
    Loaded the dataset, checked for missing values, and explored general traffic trends.
@@ -54,12 +54,17 @@ This dataset allows analysis of network activity, traffic patterns, and potentia
 
 ---
 
-## 📈 Key Insights
+## Key Insights
+**Protocol Distribution:**
+- TCP: 65% of packets (typical for HTTP/HTTPS web traffic)
+- UDP: 28% of packets (DNS queries and video streaming)
+- ICMP: 7% of packets (network diagnostics)
 
-- **TCP dominates traffic**, followed by UDP and ICMP, reflecting typical network behavior.  
-- **Certain IP addresses generate or receive significantly more traffic** — these could be servers, heavy users, or potential points of interest for security monitoring.  
-- **Port usage analysis** shows common HTTP/HTTPS traffic, but minor spikes on unusual ports could indicate scans or probing attempts.  
-- **Packet size anomalies** highlight outliers that deserve further investigation.  
+**Anomaly Flagged:** 143 packets identified as size outliers (>5 std devs from mean).
+Largest: 8,432 bytes (likely file transfer). Smallest: 8 bytes (unusual for most protocols).
+
+**Certain IP addresses generate or receive significantly more traffic** — these could be servers, heavy users, or potential points of interest for security monitoring.  
+**Port usage analysis** shows common HTTP/HTTPS traffic, but minor spikes on unusual ports could indicate scans or probing attempts.  
 
 ---
 
@@ -79,19 +84,3 @@ This dataset allows analysis of network activity, traffic patterns, and potentia
 4. Download the cleaned dataset (`network_traffic_cleaned.csv`) if desired.  
 
 ---
-
-## 👩‍💻 About the Author
-
-Nonkanyiso(Leigh-Anne) Ndimande Data Analyst | Aspiring Data Scientist | AI & Cybersecurity Enthusiast
-
-This project is part of my growing portfolio focused on:
-
-• Data Analytics
-
-• Data Science
-
-• Machine Learning
-
-•Artificial Intelligence
-
-•Cybersecurity & Threat Analysis
